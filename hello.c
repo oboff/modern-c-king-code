@@ -1,5 +1,6 @@
 #import <stdio.h>
 #import <math.h>
+#import <string.h>
 
 /*picking up C once again*/
 
@@ -21,6 +22,10 @@ int main(void) {
 		printf("round of %.1f is %.1f\n", a, roundf(a));
 	}
 	printf("\n");
-
+	
+	char *name;
+	name = "Orlando";
+	printf("Hi, my name is %s\n.", name);	
+	
 	return 0;
 }
