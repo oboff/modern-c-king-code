@@ -19,20 +19,13 @@ int main(void) {
 	printf("$%.2f\n\n", profit);
 	
 	for(float a=12;a<13;a+=0.1) {
-<<<<<<< HEAD
-		printf("round of %.2f is %.2f\n", a, roundf(a));
-	}
-	printf("\n");
-	
-=======
 		printf("round of %.1f is %.1f\n", a, roundf(a));
 	}
 	printf("\n");
 	
 	char *name;
 	name = "Orlando";
-	printf("Hi, my name is %s\n.", name);	
+	printf("Hi, my name is %s\n.", *name);	
 	
->>>>>>> 6037ac6f9aeccea15ca94a7279fd526a9ee764e7
 	return 0;
 }
