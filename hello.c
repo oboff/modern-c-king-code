@@ -18,7 +18,9 @@ int main(void) {
 	printf("$%.2f\n\n", profit);
 	
 	for(float a=12;a<13;a+=0.1) {
-		printf("round of %.1f is %.1f\n\n", a, roundf(a));
+		printf("round of %.2f is %.2f\n", a, roundf(a));
 	}
+	printf("\n");
+	
 	return 0;
 }
